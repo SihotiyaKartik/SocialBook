@@ -1,5 +1,21 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+:root{
+  --gray-100: #1C1E21;
+  --gray-90: #303338;
+  --gray-80: #444950;
+  --gray-70: #606770;
+  --logo-blue: #1877E2;
+}
+
 body {
   margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Patrick Hand', cursive;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
