@@ -1,0 +1,103 @@
+.post{
+    padding:10px;
+    margin-top:20px;
+    background-color: var(--gray-80);
+}
+
+.post-f{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post-f > img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.post-f > p{
+    color: #B0B388;
+    font-size: 20px;
+    align-self: center;
+    margin-left:10px; 
+}
+
+.post-s > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-t{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(139, 138, 138);
+}
+
+.post-t-f{
+ display: flex;  
+  
+}
+
+.post-t-f > img{
+    height: 30px;
+}
+
+.post-t-f > p{
+    font-size: 20px;
+    color:#B0B388;
+    margin-left:5px;
+}
+
+.post-t-s > p{
+    font-size: 20px;
+    color:#B0B388;
+}
+
+.post-fo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.post-fo-f{
+    display: flex;
+}
+
+.post-fo-f > i{
+    font-size: 30px;
+}
+
+.post-fo-f > p{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #B0B388;
+}
+
+.post-fo-s{
+    display: flex;
+}
+
+.post-fo-s > i{
+    font-size: 30px;
+}
+
+.post-fo-s > p{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #B0B388;
+}
+
+.post-fo-t{
+    display: flex;
+}
+
+.post-fo-t > i{
+    font-size: 30px;
+}
+
+.post-fo-t > p{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #B0B388;
+}

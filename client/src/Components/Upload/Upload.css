@@ -4,6 +4,7 @@
     border-radius: 10px;
     flex-direction: column;
     background-color: var(--gray-80);
+    margin-bottom: 100px;
 }
 
 .upload-f{
