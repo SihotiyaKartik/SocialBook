@@ -50,7 +50,7 @@ color: var(--logo-blue);
     background-color: #E8F0FE;
 }
 
-.loginButton{
+.Signup{
     height: 50px;
     margin-bottom: 15px;
     font-size: 25px;
@@ -61,7 +61,7 @@ color: var(--logo-blue);
     font-weight: 700;
 }
 
-.loginRegisterButton{
+.Login{
     height: 50px;
     margin-bottom: 15px;
     font-size: 25px;
