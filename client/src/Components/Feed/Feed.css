@@ -2,5 +2,6 @@
     width: 50%;
     overflow-y: scroll;
     height:calc(100vh - 60px);
-    
+    padding: 20px 100px;
+    background-color: var(--gray-100);
 }
