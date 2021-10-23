@@ -1,0 +1,6 @@
+.rightbar{
+    height:calc(100vh - 60px);
+    overflow-y:scroll;
+    width:25%;
+    
+}

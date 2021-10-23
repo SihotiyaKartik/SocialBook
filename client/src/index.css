@@ -27,3 +27,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.leftbar::-webkit-scrollbar{
+  width:5px;
+}
+
+.leftbar::-webkit-scrollbar-track{
+  background-color: var(--gray-100);
+}
+
+.leftbar::-webkit-scrollbar-thumb{
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid #d6dee1;
+  background-clip: content-box; 
+}

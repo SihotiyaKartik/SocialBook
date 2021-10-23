@@ -1,0 +1,44 @@
+.leftbar{
+    width:25%;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    padding:20px;
+    background-color: var(--gray-100);
+}
+
+.leftbar-f{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    padding-bottom: 20px !important; 
+}
+
+.leftbar-f > img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+}
+
+.leftbar-f > p{
+    font-size: 20px;
+    align-self: center;
+    margin-left: 10px;
+    color: white;
+}
+
+.leftbar > span{
+    margin-top: 20px;
+    display: flex;
+    padding: 5px;
+}
+.leftbar > span:hover{
+    background-color: var(--gray-70);
+}
+
+.leftbar > span > p{
+    font-size: 17px;
+    color: white;
+    align-self: center;
+    margin-left: 5px;
+}

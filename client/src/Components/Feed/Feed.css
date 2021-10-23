@@ -1,0 +1,6 @@
+.feed{
+    width: 50%;
+    overflow-y: scroll;
+    height:calc(100vh - 60px);
+    
+}
