@@ -22,6 +22,14 @@
     margin-left:10px; 
 }
 
+.post-f > h6{
+    align-self: center;
+    color: #B0B388;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
 .post-s > img{
     width: 100%;
     border-radius: 10px;
@@ -101,3 +109,11 @@
     margin-left: 5px;
     color: #B0B388;
 }
+
+.description > p{
+    color: #B0B388;
+    font-size: 20px;
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
+}
+

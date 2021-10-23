@@ -30,10 +30,10 @@ function Header() {
             <div className="third-header">
             <img src={pic} height="40" width="40" alt="profile" />
             <p>Kartik</p>
-            <i class="fa fa-th fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-bell fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-th fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-comments-o fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-bell fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
             </div>
         </div>
     )

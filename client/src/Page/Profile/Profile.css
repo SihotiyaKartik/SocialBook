@@ -1,0 +1,57 @@
+.profile{
+    display: flex;
+    width:100%;
+    
+    height: calc(100vh - 60px);
+}
+
+.profile-right{
+    flex:9;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.profile-right > .profile-right-t > .profile-photo > img:nth-child(1){
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.profile-right > .profile-right-t > .profile-photo > img:nth-child(2){
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    position: absolute;
+    right:0;
+    left: 0;
+    margin:0px auto;
+    top: 200px;
+    border: 3px solid black;
+    
+}
+
+.profile-right-t{
+  height:500px; 
+  background-color: var(--gray-100);
+  border-bottom: 1px solid white;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: #B0B388;
+}
+
+.profile-right-b{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+

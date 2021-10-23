@@ -50,7 +50,7 @@ router.delete("/:id",async (req,res) => {
 router.get("/:id", async (req,res) => {
     try{
         const user = await User.findById(req.params.id);
-        res.status(200).json("user");
+        res.status(200).json(user);
     }
     catch(err){
         return res.status(500).json(err);
