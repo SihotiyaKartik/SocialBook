@@ -1,9 +1,13 @@
 import React from 'react'
 import "./RightBar.css"
+import pic from "../../pic.jpg"
 function RightBar() {
     return (
         <div className="rightbar">
-            RightBar
+            <p className="sponsor">Sponsors</p>
+            <img src={pic} alt="sponsors" />
+            <p className="friend">Friends</p>
+
         </div>
     )
 }

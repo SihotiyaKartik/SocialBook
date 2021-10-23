@@ -1,6 +1,32 @@
 .rightbar{
     height:calc(100vh - 60px);
-    overflow-y:scroll;
+    overflow-y: scroll;
     width:25%;
-    
+    padding:10px;
+    padding-left: 20px !important;
+    background-color: var(--gray-100);
 }
+
+.sponsor{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #B0B388;
+}
+
+.rightbar > img{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.friend{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #B0B388; 
+}
+
